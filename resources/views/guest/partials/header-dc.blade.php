@@ -1,8 +1,8 @@
 <header>
-    <div>dc power</div>
-    <div>
-        <img src="" alt="">
-        <ul>
+    <div class="front">dc power</div>
+    <div class="container-header">
+        <img alt="Dc logo" src="/images/dc-logo.png">
+        <ul class="navbar">
             <li><a href="{{ route('characters')}}">Characters</a></li>
             <li><a href="{{ route('home')}}">comics</a></li>
             <li><a href="{{ route('movies')}}">movies</a></li>

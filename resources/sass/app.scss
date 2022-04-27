@@ -1,1 +1,27 @@
-//
+@import '/partials/reset';
+
+.front{
+    background-color:#0c7cec;
+}
+
+
+.container-header{
+    width: 800px;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar{
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0 1rem;
+}
+
+.jumbotron{
+    height:40vh;
+    background-image: url('/images/jumbotron.jpg');
+    background-size: cover;
+}

@@ -3,7 +3,8 @@
 @section('title', 'DC - Home')
 
 @section('content')
-<h1>home</h1>
+<div class="jumbotron"></div>
+
 <div>
     @foreach ($comics as $comic)
         <img src="{{ $comic['thumb'] }}" alt="">
