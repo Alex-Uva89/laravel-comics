@@ -112,3 +112,80 @@ a {
   width: 40%;
   padding-right: 0.5rem;
 }
+.footer-middle {
+  height: 500px;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url("/images/footer-bg.jpg");
+  background-size: cover;
+  overflow: hidden;
+}
+
+.container-lists {
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.list {
+  margin-right: 1rem;
+  margin-bottom: 0.6rem;
+  list-style: none;
+}
+.list li {
+  margin: 0.2rem;
+}
+.list li h3 {
+  font-size: 1.1rem;
+  text-transform: uppercase;
+}
+.list li a {
+  color: white;
+  text-decoration: none;
+}
+.list li a:hover {
+  color: white;
+}
+
+.footer-low {
+  height: 100px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: black;
+}
+.footer-low button {
+  cursor: pointer;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 0.8rem 1.5rem;
+  color: white;
+  background-color: transparent;
+  border: 2px solid white;
+}
+.footer-low button:hover {
+  color: black;
+  background-color: white;
+  box-shadow: inset 0 0 5px black;
+  border: 1px solid black;
+  transition: all 1s;
+}
+.footer-low .list {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #0c7cec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.footer-low .list img {
+  cursor: pointer;
+}
+.footer-low .list img:hover {
+  transform: scale(1.1);
+  filter: brightness(100);
+}
