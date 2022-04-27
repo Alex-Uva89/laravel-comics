@@ -25,6 +25,10 @@
     }
 }
 
+.shop{
+    color: black;
+}
+
 .jumbotron{
     height:45vh;
     background-image: url('/images/jumbotron.jpg');
@@ -32,12 +36,13 @@
 }
 
 .container-background{
+    padding-top: 2rem;
     background-color: #0a1014;
 }
 
 .container-card{
     width: 800px;
-    margin: 3rem auto 0;
+    margin: 2rem auto 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -173,4 +178,12 @@
             }
         }
     }
+}
+
+.container-other{
+    height: 300px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

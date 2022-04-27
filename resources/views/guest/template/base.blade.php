@@ -10,6 +10,7 @@
 </head>
 <body>
     @include('guest.partials.header-dc')
+    <div class="jumbotron"></div>
 
     @yield('content')
     

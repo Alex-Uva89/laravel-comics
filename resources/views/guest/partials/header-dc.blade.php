@@ -12,7 +12,7 @@
             <li><a href="{{ route('videos')}}">videos</a></li>
             <li><a href="{{ route('fans')}}">fan</a></li>
             <li><a href="{{ route('news')}}">news</a></li>
-            <li>shop</li>
+            <li class="shop">shop</li>
         </ul>
         <input type="text" placeholder="search">
     </div>

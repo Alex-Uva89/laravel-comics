@@ -43,6 +43,10 @@ a {
   color: black;
 }
 
+.shop {
+  color: black;
+}
+
 .jumbotron {
   height: 45vh;
   background-image: url("/images/jumbotron.jpg");
@@ -50,12 +54,13 @@ a {
 }
 
 .container-background {
+  padding-top: 2rem;
   background-color: #0a1014;
 }
 
 .container-card {
   width: 800px;
-  margin: 3rem auto 0;
+  margin: 2rem auto 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -188,4 +193,12 @@ a {
 .footer-low .list img:hover {
   transform: scale(1.1);
   filter: brightness(100);
+}
+
+.container-other {
+  height: 300px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

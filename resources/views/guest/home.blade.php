@@ -4,7 +4,6 @@
 
 @section('content')
 <div class="container-background">
-<div class="jumbotron"></div>
     <div class="container-card">
         @foreach ($comics as $comic)
             <div class="card">

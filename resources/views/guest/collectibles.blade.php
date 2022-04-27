@@ -3,5 +3,7 @@
 @section('title', 'DC - Collectibles')
 
 @section('content')
-<h1>collectibles</h1>
+<div class="container-other">
+    <h1>collectibles</h1>
+</div>
 @endsection

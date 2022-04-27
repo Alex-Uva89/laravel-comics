@@ -3,5 +3,7 @@
 @section('title', 'DC - Tv')
 
 @section('content')
-<h1>tv</h1>
+<div class="container-other">
+    <h1>tv</h1>
+</div>
 @endsection
