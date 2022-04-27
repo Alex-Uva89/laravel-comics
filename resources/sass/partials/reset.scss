@@ -3,6 +3,7 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  list-style-type: none;
 }
 
 body, input, button {
@@ -13,4 +14,9 @@ body, input, button {
 
 button {
  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
+  color: white;
 }

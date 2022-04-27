@@ -2,12 +2,14 @@
 
 .front{
     background-color:#0c7cec;
+    text-align:end;
 }
 
 
 .container-header{
     width: 800px;
-    margin: 1rem auto;
+    margin: 0 auto;
+    padding: 1rem 0;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -18,10 +20,13 @@
     display: flex;
     gap: 1rem;
     margin: 0 1rem;
+    a{
+        color: black;
+    }
 }
 
 .jumbotron{
-    height:40vh;
+    height:45vh;
     background-image: url('/images/jumbotron.jpg');
     background-size: cover;
 }
@@ -32,7 +37,7 @@
 
 .container-card{
     width: 800px;
-    margin: 5rem auto;
+    margin: 3rem auto 0;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -44,4 +49,61 @@
         width: 100%;
         height: 50%;
     }
+    h3{
+        font-size:.5rem;
+    }
+}
+
+.container-btn{
+    height:50px;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    button{
+        background-color: #0c7cec; 
+        padding: .5rem 2.5rem;
+        border: 1px solid #0c7cec;
+    }
+}
+
+.footer-high{
+    background-color: #0c7cec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-footer{
+    width: 800px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    li{
+        width: calc(100% / 5);
+        padding: 2rem 0; 
+        a{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            font-size: .1rem;
+            img{
+                width: 40%;
+                padding-right: .5rem;
+            }
+            #text{
+            }
+        }
+    }
+}
+
+.footer-middle{
+    height: 500px;
+    color: $white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('/images/jumbotron.jpg');
+    background-size: cover;
+    overflow: hidden;
 }
